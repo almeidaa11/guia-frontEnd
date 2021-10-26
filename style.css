@@ -106,3 +106,25 @@
  .r-wrap{
      flex-flow: row-reverse wrap;
  }
+
+ .space-between{
+     justify-content: space-between;
+ }
+
+ .flex-container4{
+     max-width: 500px;
+     border: 1px solid green;
+     margin: 0;
+     display: flex;
+ }
+
+ .item3{
+     background-color: hotpink;
+     color: white;
+     margin: 5px;
+     text-align: center;
+ }
+
+ .space-around{
+     justify-content: space-around;
+ }
