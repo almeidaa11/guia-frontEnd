@@ -78,3 +78,31 @@
 .column-inverse li{
     background-color: rgb(209, 47, 74);
 }
+
+.flex-container3{
+    display: flex;
+    flex-flow: row nowrap;
+    border: 2px solid black;
+    max-width: 500px;
+}
+
+.item2{
+    background-color: blue;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+ .wrap{
+    flex-flow: row wrap;
+ }
+
+ .r-nowrap{
+     flex-flow: row-reverse nowrap;
+ }
+ 
+ .r-wrap{
+     flex-flow: row-reverse wrap;
+ }
